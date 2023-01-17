@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+}
+.nav{ position: fixed;
+    display: flex;
+    background-color: rgb(32, 24, 24);
+    color: white;
+    width: 100vw;
+    height: 70px;
+    place-items: center;
+    z-index: 1;
+}
+.nav h1{
+    margin-left: 100px;
+}
+.table ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 200px;
+}
+.table li{
+    margin-left: 25px;
+}
+.table a{
+    text-decoration: none;
+    color: white;
+}
+.table a:hover{
+    color: rgb(41, 190, 66);}
+.heading{
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    color: white;
+}
+.heading h1{
+    font-size: 80px;
+}
+.heading h3{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.upper{
+
+    color: rgb(53, 46, 46);
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: flex;
+}
+.upperfirst{
+    width: 700px;
+}
+.upperfirst h1{
+    margin-left: 100px;
+    padding-top: 10px;
+    border:1px black solid;
+    width: 250px;
+    height: 40px;
+font-size: 28px;
+text-align: center;
+}
+.upperfirst p{
+    font-size: 23px;
+    text-align: justify;
+    margin-top: 70px;
+    }
+    .uppersecond{
+        position: relative;
+        left: 100px;
+    }
+    .upperthird{
+    
+        position: relative;
+        left: -20px;
+    }
+    .imgfix1{
+        margin-top: 150px;
+       
+    }
+    .heading1{
+        font-size: 50px;
+        position: absolute;
+        top: 1400px;
+        left: 20%;
+        color: rgb(255, 252, 252);
+    }
+    .nav1 ul{
+        margin-top: 50px;
+        margin-left: 350px;
+        display: flex;
+        list-style-type: none;
+        
+    }
+    .nav1 li{
+        margin-left: 30px;
+    }
+    .nav1 a{
+        text-decoration: none;
+        font-size: 25px;
+        color: #000;
+    }
+    .nav1 a:hover{
+        color: rgb(209, 13, 13);
+    }
+    .nav1img{
+        position: relative;
+        top: 50px;
+        left: 200px;
+    }
+    .nav1img img{
+        padding: 5px;
+    }
+    .f1{
+        color: white;
+        background-color: brown;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        top: 1970px;
+        left: 205px;
+    }
+    .f2{
+        color: white;
+        background-color: brown;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        top: 1970px;
+        left: 419px;
+    }
+    .f3{
+        color: white;
+        background-color: brown;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        top: 1970px;
+        left: 633px;
+    }
+    .f4{
+        color: white;
+        background-color: brown;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        top: 1970px;
+        left: 847px;
+    }
+    .f5{
+        color: white;
+        background-color: brown;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        top: 2181px;
+        left: 205px;
+    }
+    .f6{
+        color: white;
+        background-color: brown;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        top: 2181px;
+        left: 419px;
+    }
+    .f7{
+        color: white;
+        background-color: brown;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        top: 2181px;
+        left: 633px;
+    }
+    .f8{
+        color: white;
+        background-color: brown;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        top: 2181px;
+        left: 847px;
+    }
+    .imgfix2{
+        position: relative;
+        top: 100px;
+       
+    }
+    .imgfix2h{
+        color: rgb(241, 234, 234);
+        font-size: 60px;
+        position: absolute;
+        top: 2420px;
+        left: 150px;
+    }
+    .bear{
+         display: flex; 
+    }
+    .bearimg{
+        position: relative;
+        top: 150px;
+        left: 250px;
+    }
+    .bearh{
+        width: 450px;
+        position: relative;
+        top: 150px;
+        left: 350px;
+    }
+    .bearh h1{
+        margin-left: 90px;
+        width: 200px;
+        height: 50px;
+        border: 1px solid black;
+        text-align: center;
+        padding-top: 9px; margin-bottom: 50px;
+    }
+    .bearh p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .imgfix3{
+        position: relative;
+        top: 200px;
+    }
+    .imgfix3h{
+        position: absolute;
+        top: 3450px;
+        left: 180px;
+        font-size: 45px;
+        color: white;
+    }
+    .bread{
+        display: flex;
+        position: relative;
+        top: 250px;
+        left:100px
+    }
+    .breadh{
+        width: 500px;
+        text-align: justify;
+    
+    }
+    .breadh h1{
+        text-align: center;
+        margin-left: 100px;
+        padding-top: 10px;
+        width: 230px;
+        height: 50px;
+        border: 1px solid black;
+        margin-bottom: 50px;
+    }
+    .breadh p{
+        font-size: 20px;
+    }
+    .breadimg{
+        position: relative;
+        top:50px ;
+        left: 50px;
+    }
+    .imgfix4{
+        position: relative;
+        top: 350px;
+    }
+    .imgfix4h{
+        position: absolute;
+        top: 4450px;
+        left: 150px;
+    }
+    .imgfix4h h1{
+        color: white;
+        font-size: 90px;
+    }
+    .dishes{
+        position: relative;
+        top: 400px;
+        left: 100px;
+        display: flex;
+    }
+    .dishesh{
+        width: 450px;
+    }
+    .dishesh h1{
+        text-align: center;
+        width: 200px;
+        height: 110px;
+        border: 1px solid black;
+        margin-left: 120px;
+        margin-bottom: 50px;
+    }
+    .dishes p{
+        text-align: justify;
+        font-size: 23px;
+    }
+    .dishesimg{
+        position: relative;
+        top: 80px;
+        left: 80px;
+    }
+    .imgfix5{
+        position: relative;
+        top: 450px;
+    }
+    .imgfix5h{
+        font-size: 70px;
+        color: white;
+        position: absolute;
+        top: 5300px;
+        left: 150px;
+    }
+    .reserveform{
+        display: flex;
+        position: relative;
+        top: 500px;
+        left: 150px;
+    }
+    .form1{
+        width: 370px;
+        
+    }
+    .form2{
+        width: 370px;
+    }
+    .form3{
+        width: 400px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .form3 h2{
+        text-align: center;
+    }
+    .form3 h4{
+        margin-top: 20px;
+    }
+    .form3 hr{
+        margin-top: 7px;
+    }
+    input{
+        width: 320px;
+        height: 40px;
+        font-size: 15px;
+        padding-left:20px;
+        margin-top: 30px;
+    }
+    button{
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        background-color: rgb(12, 113, 61);
+        color: white;
+        border: none;
+        font-size: 20px;
+    }
+    button:hover{
+        color: #000;
+        background-color: aliceblue;
+    }
+    .message{
+        display: flex;
+        position: relative;
+        top:550px;
+        left: 150px;
+    }
+    .mpart1{
+        width: 600px;
+    }
+    .mpart1 input{
+        width: 450px;
+        height: 40px;
+        font-size: 15px;
+        padding-left:20px;
+        margin-top: 30px;
+    }
+    .mpart2{
+        margin-top: 30px;
+        margin-left: -75px;
+    }
+    textarea{
+        padding-left: 20px;
+        padding-top: 20px;
+        border: solid rgb(42, 11, 216) 1px;
+    }
+    .cont{
+        width: 100%;
+        height: 250px;
+        background-color: rgba(15, 11, 11, 0.882);
+        position: relative;
+        top: 530px;
+        color: rgb(80, 178, 81);}
+    .cont1{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    }
+    .cont1 h1{
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    .cont i{
+        font-size: 30px;
+        padding-left: 15px;
+        color: white;
+    }
+    .cont2{
+        position: absolute;
+        top: 50px;
+        left: 750px;
+    }
+    .cont2 h1{
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    .cont2 h2{
+        color: white;
+    }
+    .footer{
+        width: 100%;
+        height: 60px;
+        background-color: rgba(15, 12, 12, 0.879);
+        position: relative;
+        top: 600px;
+        display: flex;
+    }
+    .footer p{
+        color: rgba(179, 169, 169, 0.567);
+        padding-left: 200px;
+        padding-top: 20px;
+        font-size: 19px;
+    }
